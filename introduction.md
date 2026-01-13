@@ -42,10 +42,10 @@ This guide is intended for:
 
 This guide is organised as follows:
 
-* Section 2 describes key interoperability use cases
-* Section 3 defines the content and structure of the GPS
-* Section 4 provides information model and terminology binding guidance
-* Section 5 describes technical implementation considerations
+* [use-cases.md](use-cases.md "mention") describes key interoperability use cases
+* [gps-content.md](gps-content.md "mention") defines the content and structure of the GPS
+* [information-models-and-terminology-binding](information-models-and-terminology-binding/ "mention") provides information model and terminology binding guidance
+* [technical-application](technical-application/ "mention")[technical-application](technical-application/ "mention") describes technical implementation considerations
 
 ## Review
 
