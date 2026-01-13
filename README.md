@@ -4,7 +4,7 @@ The SNOMED CT Implementation Guide for Nutrition Care Process Terminology (NCPT)
 
 ***
 
-<table data-view="cards"><thead><tr><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="introduction.md">introduction.md</a></td></tr><tr><td><a href="use-cases.md">use-cases.md</a></td></tr><tr><td><a href="gps-content.md">gps-content.md</a></td></tr><tr><td><a href="information-models-and-terminology-binding/">information-models-and-terminology-binding</a></td></tr><tr><td><a href="technical-application/">technical-application</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="introduction.md">introduction.md</a></td></tr><tr><td><a href="use-cases.md">use-cases.md</a></td></tr><tr><td><a href="global-patient-set-content.md">global-patient-set-content.md</a></td></tr><tr><td><a href="information-models-and-terminology-binding/">information-models-and-terminology-binding</a></td></tr><tr><td><a href="technical-application/">technical-application</a></td></tr></tbody></table>
 
 ***
 

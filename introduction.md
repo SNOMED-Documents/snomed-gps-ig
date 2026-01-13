@@ -43,7 +43,7 @@ This guide is intended for:
 This guide is organised as follows:
 
 * [use-cases.md](use-cases.md "mention") describes key interoperability use cases
-* [gps-content.md](gps-content.md "mention") defines the content and structure of the GPS
+* [global-patient-set-content.md](global-patient-set-content.md "mention") defines the content and structure of the GPS
 * [information-models-and-terminology-binding](information-models-and-terminology-binding/ "mention") provides information model and terminology binding guidance
 * [technical-application](technical-application/ "mention")[technical-application](technical-application/ "mention") describes technical implementation considerations
 

@@ -1,6 +1,6 @@
-# GPS Content
+# Global Patient Set Content
 
-### Scope of the Global Patient Set (GPS)
+### Scope of the Global Patient Set
 
 The Global Patient Set (GPS) includes all SNOMED CT concepts from a given version of the International Edition of SNOMED CT, provided as a Free Set.
 
