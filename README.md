@@ -1,6 +1,6 @@
 # SNOMED CT Implementation Guide for the Global Patient Set
 
-The SNOMED CT Implementation Guide for Nutrition Care Process Terminology (NCPT) provides practical guidance for documenting nutrition and dietetics care using standardized SNOMED CT concepts. Aligned with the internationally recognized Nutrition Care Process (NCP), this guide supports consistent, interoperable data capture across electronic health systems to improve care quality, enable clinical decision support, and facilitate outcomes research.
+The SNOMED CT Implementation Guide for the Global Patient Set (GPS) provides practical guidance for the use of SNOMED CT concept identifiers and terms to support international interoperability of clinical information. By making all SNOMED CT concepts accessible for global use, the GPS enables consistent exchange, storage, and interpretation of SNOMED CT–encoded data across health systems, including in non-Member countries. This guide supports safe and predictable use of the GPS while clearly distinguishing it from semantic use of the full SNOMED CT terminology.
 
 ***
 
