@@ -1,31 +1,19 @@
 # Use of the Global Patient Set in a FHIR Terminology Server
 
-The Global Patient Set may be used as a content source for a FHIR terminology server in environments where licensed access to the full SNOMED CT release is not available.
+The Global Patient Set (GPS) may be used as a content source for a FHIR terminology server in environments where licensed access to the full SNOMED CT release is not available. In such configurations, the GPS supports identifier-level terminology services only and must not be treated as a substitute for a full SNOMED CT terminology server.
 
-In this context, the GPS supports identifier-level terminology services only.
+GPS content used by a terminology server is typically prepared in advance from SNOMED CT RF2 releases using tooling such as the SNOMED CT GPS Term Extractor, which derives a flat, GPS-compatible dataset suitable for loading into terminology services.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>This diagram illustrates how the Global Patient Set is prepared and used within a FHIR terminology server. The SNOMED CT GPS Release provides the source content, which is processed by the SNOMED CT GPS Term Extractor to generate a simplified GPS dataset containing only concept identifiers and terms. This flat dataset is then loaded into the FHIR terminology server, where it supports identifier-level operations such as code lookup and validation, without exposing SNOMED CT semantic or hierarchical functionality.</p></figcaption></figure>
 
 ## &#x20;Supported Terminology Server Capabilities
 
-When configured using the GPS, a FHIR terminology server may support:
+When configured with GPS-derived content, a FHIR terminology server may support a limited set of operations that rely solely on identifiers and human-readable terms, including:
 
-* code system lookup
-  * returning the FSN or Preferred Term for a SNOMED CT identifier
-* code validation
-  * confirming that an identifier exists in the GPS
-  * indicating whether the concept is active or inactive
-* display support
-  * providing human-readable terms for SNOMED CT identifiers included in exchanged data
+* `$lookup` for SNOMED CT concept identifiers
+* `$validate-code` to confirm identifier validity and active status
 
-These capabilities support interoperability, storage, and interpretation of SNOMED CT-encoded data.
-
-#### Example FHIR Operations
-
-Using the GPS, a terminology server may support:
-
-* $lookup for SNOMED CT concept identifiers
-* $validate-code to confirm identifier validity and status
-
-Responses are limited to identifier and term information only and must not include semantic relationships.
+Responses are limited to concept identifiers and associated term information and must not include semantic relationships, hierarchies, or inferred data.
 
 ## Capabilities Not Supported Using the GPS
 
@@ -42,12 +30,3 @@ This includes, but is not limited to:
 
 All such capabilities require licensed access to the full SNOMED CT release.
 
-## Configuration and Transparency
-
-When using the GPS in a FHIR terminology server:
-
-* the SNOMED CT code system should be treated as flat
-* supported server capabilities should be clearly documented
-* GPS-based services should be clearly distinguished from licensed SNOMED CT services, where both are present
-
-This avoids incorrect assumptions about available functionality.

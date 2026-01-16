@@ -7,4 +7,5 @@
 * [Information Models and Terminology Binding](information-models-and-terminology-binding/README.md)
   * [Application Examples](information-models-and-terminology-binding/application-examples.md)
 * [Technical Application](technical-application/README.md)
+  * [Tooling and Extraction](technical-application/tooling-and-extraction.md)
   * [Use of the Global Patient Set in a FHIR Terminology Server](technical-application/use-of-the-global-patient-set-in-a-fhir-terminology-server.md)
