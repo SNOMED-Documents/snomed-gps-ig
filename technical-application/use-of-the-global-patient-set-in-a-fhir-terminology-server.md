@@ -12,6 +12,7 @@ When configured with GPS-derived content, a FHIR terminology server may support 
 
 * `$lookup` for SNOMED CT concept identifiers
 * `$validate-code` to confirm identifier validity and active status
+* `$expand` for value sets uploaded by the user
 
 Responses are limited to concept identifiers and associated term information and must not include semantic relationships, hierarchies, or inferred data.
 

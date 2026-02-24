@@ -100,6 +100,73 @@ In such cases:
 Use of CodeableConcept elements containing SNOMED CT identifiers does not grant access to SNOMED CT hierarchies, definitions, or logical relationships. Any such use requires licensed access to the full SNOMED CT release.
 {% endhint %}
 
+## Capturing SNOMED CT Identifiers
+
+The Global Patient Set (GPS) supports simple data entry activities where terminology bindings reference a predefined and relatively small set of SNOMED CT concept identifiers.
+
+This approach is appropriate when:
+
+* The permitted identifiers are explicitly enumerated
+* No hierarchical navigation or semantic reasoning is required
+* Value set membership is externally defined and governed
+
+### Limitations for Large or Open-Ended Value Sets
+
+Search and data entry across large or open-ended value sets are limited when using the GPS. The GPS does not include:
+
+* Hierarchical relationships
+* Attribute relationships
+* Ontology services
+* Expression Constraint Language (ECL) support
+* Historical associations (e.g. inactivation indicators or replacement suggestions)
+
+As a result:
+
+* Concepts cannot be browsed by hierarchy
+* Subsumption testing cannot be performed
+* Intensional value sets cannot be defined or evaluated
+* Concept replacements cannot be automatically resolved
+
+Where implementations require hierarchical navigation, dynamic value set expansion, semantic validation, or automated maintenance, licensed access to the full SNOMED CT release is required.
+
+### Maintenance Considerations
+
+When using the GPS to support data capture:
+
+* Value sets must be explicitly enumerated
+* Ongoing maintenance of those value sets must be managed externally
+* Concept inactivation and replacement must be handled manually
+* Release version alignment must be monitored
+
+Because the GPS does not provide historical associations or ontology services, implementers are responsible for ensuring that captured identifiers remain valid and appropriate across GPS releases.
+
+### Feasible Implementation Scenarios
+
+Use of the GPS for capturing SNOMED CT identifiers may be feasible where:
+
+* An external implementation guide defines fixed value sets
+* Terminology bindings are stable and centrally curated
+* Semantic processing beyond identifier validation is not required
+
+In such cases, the GPS supports structured data capture and interoperability without requiring full ontology access.
+
+### Example
+
+Selecting a Smoker status value from an IPS Value set:&#x20;
+
+[https://build.fhir.org/ig/HL7/fhir-ips/en/ValueSet-current-smoking-status-uv-ips.html](https://build.fhir.org/ig/HL7/fhir-ips/en/ValueSet-current-smoking-status-uv-ips.html)
+
+| System                   | Code                                                       | Display (en)                        |
+| ------------------------ | ---------------------------------------------------------- | ----------------------------------- |
+| `http://snomed.info/sct` |   [449868002](http://snomed.info/id/449868002)             | Smokes tobacco daily                |
+| `http://snomed.info/sct` |   [428041000124106](http://snomed.info/id/428041000124106) | Occasional tobacco smoker           |
+| `http://snomed.info/sct` |   [8517006](http://snomed.info/id/8517006)                 | Former smoker                       |
+| `http://snomed.info/sct` |   [266919005](http://snomed.info/id/266919005)             | Never smoked                        |
+| `http://snomed.info/sct` |   [77176002](http://snomed.info/id/77176002)               | Smoker                              |
+| `http://snomed.info/sct` |   [266927001](http://snomed.info/id/266927001)             | Tobacco smoking consumption unknown |
+| `http://snomed.info/sct` |   [230063004](http://snomed.info/id/230063004)             | Heavy cigarette smoker              |
+| `http://snomed.info/sct` |   [230060001](http://snomed.info/id/230060001)             | Light cigarette smoker              |
+
 ## Storing SNOMED CT Identifiers
 
 Systems using the Global Patient Set (GPS) may store SNOMED CT identifiers as part of clinical data records.
@@ -147,7 +214,7 @@ This record supports data exchange and human interpretation, but does not suppor
 
 Validation of SNOMED CT identifiers using the GPS is limited to syntactic and membership checks.
 
-### **Permitted Validation Activities**
+### Capabilities Provided for **Validation Activities**
 
 Using the GPS, systems may:
 
@@ -165,9 +232,9 @@ When receiving a SNOMED CT identifier:
 2. Check whether the concept is active
 3. Apply local handling rules if the concept is inactive (e.g. accept and flag)
 
-### **Non-Permitted Validation Activities**
+### Capabilities Not Provided for **Validation Activities**
 
-Using the GPS, systems must not:
+Using the GPS, systems can't:
 
 * Perform subsumption testing
 * Determine whether one concept is more general or more specific than another
@@ -175,6 +242,8 @@ Using the GPS, systems must not:
 * Use Expression Constraint Language (ECL)
 
 All such activities require licensed access to the full SNOMED CT release.
+
+
 
 {% hint style="info" %}
 ### **Key Distinction**

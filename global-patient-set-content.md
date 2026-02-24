@@ -38,6 +38,8 @@ The GPS does not include:
 * Logical definitions or expressions
 * Concept hierarchies
 * Inference or reasoning capabilities
+* Historical associations
+* Translations to other languages (only US English)
 
 As a result, the GPS must be treated as a flat collection of identifiers and terms.
 

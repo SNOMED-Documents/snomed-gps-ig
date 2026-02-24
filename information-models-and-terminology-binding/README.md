@@ -29,5 +29,6 @@ The GPS is therefore primarily intended to support:
 * Exchange of SNOMED CT–encoded data
 * Storage and display of SNOMED CT identifiers
 * Interpretation of received clinical information
+* Simple data-entry based on small value sets
 
 Where systems require semantic guidance, constrained data entry, or terminology-driven validation, access to the full SNOMED CT release under an appropriate license is required.
