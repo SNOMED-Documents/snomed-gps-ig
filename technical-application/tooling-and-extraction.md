@@ -1,6 +1,6 @@
 # Tooling and Extraction
 
-The SNOMED CT GPS Term Extractor is a utility designed to support the preparation of Global Patient Set (GPS) content from standard SNOMED CT RF2 releases. Its primary function is to extract and normalize SNOMED CT concepts and terms into a flat, GPS-compatible representation suitable for exchange, indexing, and downstream processing.
+The SNOMED CT GPS Term Extractor ([see the GitHub Repository](https://github.com/IHTSDO/snomed-gps-extractor)) is an utility designed to support the preparation of Global Patient Set (GPS) content from standard SNOMED CT RF2 releases. Its primary function is to extract and normalize SNOMED CT concepts and terms into a flat, GPS-compatible representation suitable for exchange, indexing, and downstream processing.
 
 The tool is intended for use during content preparation and build workflows, rather than for runtime terminology services.
 
