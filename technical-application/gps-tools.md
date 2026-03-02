@@ -1,20 +1,39 @@
----
-hidden: true
----
+# GPS Tools
 
-# Tooling and Extraction
+## Semantic Tag–Based Filtering
 
-SNOMED International makes available a SNOMED CT GPS Term Extractor utility:
+SNOMED International makes available a tool to filter the downloaded GPS files based on a concept's fully specified name (FSN), which allows implementers to restrict GPS content to a specific clinical domain:
 
 [https://ihtsdo.github.io/snomed-gps-extractor/](https://ihtsdo.github.io/snomed-gps-extractor/)
 
-This tool is designed to support the preparation of Global Patient Set (GPS) content from standard SNOMED CT RF2 releases. Its primary function is to extract and normalize SNOMED CT concepts and terms into a flat, GPS-compatible representation suitable for exchange, indexing, and downstream processing.
+<figure><img src="../.gitbook/assets/web-ui.jpeg" alt=""><figcaption></figcaption></figure>
 
-The tool is intended for use during content preparation and build workflows, rather than for runtime terminology services.
+Semantic tags are derived from the FSN and can be used to:
 
-## Role in GPS Implementations
+* Include or exclude concepts based on high-level meaning (e.g. disorders, findings, substances)
+* Produce domain-specific GPS subsets
+* Reduce dataset size for constrained or focused implementations
 
-Implementers may need to transform the Global Patient Set (GPS) RF2 distribution into formats suitable for runtime use in applications, such as value sets, lookup tables, or terminology service artifacts. The snomed-gps-extractor tooling supports this process by providing a repeatable way to extract, normalize, and package GPS content from official SNOMED CT RF2 release files.
+### How to Use the Tool
+
+Your file is processed locally in the browser and is never uploaded to any server.
+
+1. **Upload**: Drag and drop the downloaded SNOMED CT GPS file (TSV format).
+2. **Configure**:
+   * Toggle **"Active Concepts Only"** to exclude inactive records.
+   * Select the desired **Semantic Tags** from the categorized list.
+   * Add any **Custom Tags** if needed.
+3. **Process**: Click "Process & Download" to get your filtered dataset.
+
+There is also a Command-Line Interface (CLI) included in the [GitHub repository](https://github.com/IHTSDO/snomed-gps-extractor), intended for automated and repeatable processing, such as CI/CD pipelines or scheduled dataset builds.
+
+## GPS Extractor Tool
+
+This is a utility tool for extracting and processing SNOMED CT terminology data from an RF2 release. It produces the SNOMED International GPS (Global Patient Set) format and offers advanced filtering capabilities via both a command-line interface (CLI) and a modern web interface.
+
+### Role in GPS Implementations
+
+Implementers may need to recreate the Global Patient Set (GPS) from an existing SNOMED CT Edition RF2 distribution into formats suitable for runtime use in applications, such as value sets, lookup tables, or terminology service artifacts. The snomed-gps-extractor tooling supports this process by providing a repeatable way to extract, normalize, and package GPS content from official SNOMED CT RF2 release files.
 
 In a typical GPS implementation, the term extractor is used to:
 
@@ -23,7 +42,7 @@ In a typical GPS implementation, the term extractor is used to:
 
 The extractor acts as a bridge between the full GPS and implementation-friendly artifacts, such as value sets or lookup tables.
 
-## Features
+### Features
 
 The SNOMED CT GPS Term Extractor provides the following capabilities to support GPS content preparation:
 
@@ -33,25 +52,13 @@ The SNOMED CT GPS Term Extractor provides the following capabilities to support 
 * Active status filtering
 * Command-line execution
 
-### Term extraction from RF2
+#### Term extraction from RF2
 
 The extractor provides a controlled mechanism for deriving GPS-ready datasets from SNOMED CT RF2 releases by standardising how concepts and terms are selected and represented. This supports repeatable dataset generation across releases and reduces the need for custom RF2 processing logic within implementations.
 
 The extracted output is designed to be stable and comparable over time, enabling consistent downstream use in exchange, indexing, and validation scenarios.
 
-### Semantic Tag–Based Filtering
-
-A key capability of the extractor is semantic tag filtering, which allows implementers to restrict GPS content to specific clinical domains.
-
-Semantic tags are derived from the fully specified name (FSN) and can be used to:
-
-* Include or exclude concepts based on high-level meaning (e.g. disorders, findings, substances)
-* Produce domain-specific GPS subsets
-* Reduce dataset size for constrained or focused implementations
-
-Filtering can be applied either during extraction or as a post-processing step on existing GPS datasets.
-
-### Active Concept Management
+#### Active Concept Management
 
 The extractor supports handling of concept lifecycle status, enabling implementations to:
 
@@ -60,18 +67,7 @@ The extractor supports handling of concept lifecycle status, enabling implementa
 
 This allows implementers to align GPS datasets with their data governance and clinical safety requirements.
 
-### Interaction Models
-
-The tool supports two complementary interaction models:
-
-*   **Command-Line Interface (CLI)**
-
-    Intended for automated and repeatable processing, such as CI/CD pipelines or scheduled dataset builds.
-*   **Web Interface**
-
-    A browser-based interface that supports interactive filtering and dataset preparation, particularly useful for exploratory or ad-hoc workflows.
-
-## Output Characteristics
+### Output Characteristics
 
 The extractor produces GPS-compatible tab-separated files (TSV) designed to be:
 

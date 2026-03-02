@@ -2,7 +2,9 @@
 
 ### Scope of the Global Patient Set
 
-The Global Patient Set (GPS) includes all SNOMED CT concepts from a given version of the International Edition of SNOMED CT, provided as a Free Set.
+The Global Patient Set (GPS) includes all **active** SNOMED CT concepts from a given version of the International Edition of SNOMED CT, provided as a Free Set.
+
+It also includes all SNOMED CT concepts that have been **inactive** since January 2012.
 
 This means that, for the selected SNOMED CT International Edition version, every concept identifier is present in the GPS, regardless of domain or hierarchy.
 
