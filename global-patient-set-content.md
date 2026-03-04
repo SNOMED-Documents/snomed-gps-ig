@@ -11,9 +11,9 @@ This means that, for the selected SNOMED CT International Edition version, every
 For each SNOMED CT concept, the GPS includes:
 
 * SNOMED CT concept identifier
-* Fully Specified Name (FSN)
-* Preferred Term (International English)
 * Concept status (active or inactive)
+* Fully Specified Name (FSN)
+* Preferred Term (International/US English)
 
 This content supports the exchange, storage, and human interpretation of SNOMED CT–encoded data in any jurisdiction, including non-Member countries, without requiring access to the full SNOMED CT release.
 
@@ -21,11 +21,7 @@ This content supports the exchange, storage, and human interpretation of SNOMED 
 
 The following examples illustrate the type of content included for individual concepts:
 
-| Concept ID | FSN                                 | Preferred Term           | Status |
-| ---------- | ----------------------------------- | ------------------------ | ------ |
-| 22298006   | Myocardial infarction (disorder)    | Myocardial infarction    | Active |
-| 44054006   | Diabetes mellitus type 2 (disorder) | Type 2 diabetes mellitus | Active |
-| 80146002   | Appendectomy (procedure)            | Appendectomy             | Active |
+<table><thead><tr><th width="140.4921875">Concept ID</th><th width="105.1171875">Active</th><th width="234.7265625">FSN</th><th>US Preferred Term</th></tr></thead><tbody><tr><td>22298006</td><td>Active</td><td>Myocardial infarction (disorder)</td><td>Myocardial infarction</td></tr><tr><td>44054006</td><td>Active</td><td>Diabetes mellitus type 2 (disorder)</td><td>Type 2 diabetes mellitus</td></tr><tr><td>80146002</td><td>Active</td><td>Appendectomy (procedure)</td><td>Appendectomy</td></tr></tbody></table>
 
 Each concept is included individually, without any information about how it relates to other concepts.
 
@@ -65,14 +61,14 @@ The GPS is distributed as a tab-separated values (TSV) file designed for indepen
 Each row in the file represents a single SNOMED CT concept and includes:
 
 * Concept identifier
-* Fully Specified Name (FSN)
-* Preferred Term (International English)
 * Active status flag
+* Fully Specified Name (FSN)
+* Preferred Term (International/US English)
 
 **Example File Row**
 
 ```
-22298006	Myocardial infarction (disorder)	Myocardial infarction	1
+22298006	1    Myocardial infarction (disorder)    Myocardial infarction
 ```
 
 In this example:
