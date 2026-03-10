@@ -202,8 +202,9 @@ The presence of a SNOMED CT identifier in stored data does not imply access to S
 
 A stored diagnosis entry using the GPS may include:
 
-| Code system        | SNOMED CT             |
+| Element            | Value                 |
 | ------------------ | --------------------- |
+| Code system        | SNOMED CT             |
 | Concept identifier | 22298006              |
 | Term               | Myocardial infarction |
 | GPS version        | 2026-01               |
