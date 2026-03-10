@@ -21,7 +21,7 @@ This content supports the exchange, storage, and human interpretation of SNOMED 
 
 The following examples illustrate the type of content included for individual concepts:
 
-<table><thead><tr><th width="140.4921875">Concept ID</th><th width="105.1171875">Active</th><th width="234.7265625">FSN</th><th>US Preferred Term</th></tr></thead><tbody><tr><td>22298006</td><td>Active</td><td>Myocardial infarction (disorder)</td><td>Myocardial infarction</td></tr><tr><td>44054006</td><td>Active</td><td>Diabetes mellitus type 2 (disorder)</td><td>Type 2 diabetes mellitus</td></tr><tr><td>80146002</td><td>Active</td><td>Appendectomy (procedure)</td><td>Appendectomy</td></tr></tbody></table>
+<table><thead><tr><th width="118.49609375">Concept ID</th><th width="98.48046875">Active</th><th width="293.99609375">FSN</th><th>US Preferred Term</th></tr></thead><tbody><tr><td>22298006</td><td>Active</td><td>Myocardial infarction (disorder)</td><td>Myocardial infarction</td></tr><tr><td>44054006</td><td>Active</td><td>Diabetes mellitus type 2 (disorder)</td><td>Type 2 diabetes mellitus</td></tr><tr><td>80146002</td><td>Active</td><td>Excision of appendix (procedure)</td><td>Appendectomy</td></tr></tbody></table>
 
 Each concept is included individually, without any information about how it relates to other concepts.
 
