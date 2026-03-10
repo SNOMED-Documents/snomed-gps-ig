@@ -160,7 +160,7 @@ Selecting a Smoker status value from an IPS Value set:&#x20;
 | ------------------------ | ---------------------------------------------------------- | ----------------------------------- |
 | `http://snomed.info/sct` |   [449868002](http://snomed.info/id/449868002)             | Smokes tobacco daily                |
 | `http://snomed.info/sct` |   [428041000124106](http://snomed.info/id/428041000124106) | Occasional tobacco smoker           |
-| `http://snomed.info/sct` |   [8517006](http://snomed.info/id/8517006)                 | Former smoker                       |
+| `http://snomed.info/sct` |   [8517006](http://snomed.info/id/8517006)                 | Ex-smoker                           |
 | `http://snomed.info/sct` |   [266919005](http://snomed.info/id/266919005)             | Never smoked                        |
 | `http://snomed.info/sct` |   [77176002](http://snomed.info/id/77176002)               | Smoker                              |
 | `http://snomed.info/sct` |   [266927001](http://snomed.info/id/266927001)             | Tobacco smoking consumption unknown |

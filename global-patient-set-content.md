@@ -57,7 +57,7 @@ All such knowledge requires licensed access to the full SNOMED CT release.
 
 ## Release File Structure
 
-The GPS is distributed as a tab-separated values (TSV) file designed for independent use.\
+The GPS is distributed as a tab-separated values (TSV) file with a ".txt" extension, designed for independent use.\
 Each row in the file represents a single SNOMED CT concept and includes:
 
 * Concept identifier
