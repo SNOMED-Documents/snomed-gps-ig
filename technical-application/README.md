@@ -89,7 +89,7 @@ Systems should track which GPS release is in use, particularly when storing data
 
 Concepts may become inactive between GPS releases. Systems should define local policies for the display and handling of inactive identifiers.
 
-### Coexistence With Local Codes
+### Coexistence with Local Codes
 
 GPS identifiers may coexist with local codes or classifications to support continuity of care and local workflows.
 
