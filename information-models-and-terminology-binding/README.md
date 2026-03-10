@@ -6,7 +6,7 @@ The Global Patient Set (GPS) is information model agnostic.
 
 The GPS is not designed to align with any specific information model, message standard, or data context. It may be used with a wide range of information models and exchange formats, including but not limited to HL7 FHIR, CDA, openEHR, and proprietary models.
 
-The GPS supports the use cases described in [Chapter 2](../use-cases.md) by enabling the exchange, storage, and interpretation of SNOMED CT identifiers and terms, independent of the underlying data structure.
+The GPS supports the use cases described in [use-cases.md](../use-cases.md "mention") by enabling the exchange, storage, and interpretation of SNOMED CT identifiers and terms, independent of the underlying data structure.
 
 ## Limitations for Data Input and Constructive Terminology Binding
 
