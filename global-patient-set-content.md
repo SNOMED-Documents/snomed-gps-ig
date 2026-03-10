@@ -13,7 +13,7 @@ For each SNOMED CT concept, the GPS includes:
 * SNOMED CT concept identifier
 * Concept status (active or inactive)
 * Fully Specified Name (FSN)
-* Preferred Term (International/US English)
+* Preferred Term (US English)
 
 This content supports the exchange, storage, and human interpretation of SNOMED CT–encoded data in any jurisdiction, including non-Member countries, without requiring access to the full SNOMED CT release.
 
