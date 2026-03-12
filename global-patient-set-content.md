@@ -63,7 +63,7 @@ Each row in the file represents a single SNOMED CT concept and includes:
 * Concept identifier
 * Active status flag
 * Fully Specified Name (FSN)
-* Preferred Term (International/US English)
+* Preferred Term (US English)
 
 **Example File Row**
 
