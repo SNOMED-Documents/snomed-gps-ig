@@ -6,7 +6,7 @@ The guidance in this chapter focuses on safe, predictable, and license-compliant
 
 ## Accessing the Global Patient Set
 
-The Global Patient Set (GPS) is made available by SNOMED International for download under a [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0).
+The Global Patient Set (GPS) is made available by SNOMED International for download under a [Creative Commons -NoDerivatives 4.0 International Public License](https://creativecommons.org/licenses/by-nd/4.0/) (CC BY-ND 4.0).
 
 Access to the GPS:
 
