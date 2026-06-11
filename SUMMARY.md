@@ -1,6 +1,6 @@
 # Table of contents
 
-* [SNOMED CT Implementation Guide for the Global Patient Set](README.md)
+* [SNOMED International Implementation Guide for the Global Patient Set](README.md)
 * [Introduction](introduction.md)
 * [Use Cases](use-cases.md)
 * [Global Patient Set Content](global-patient-set-content.md)
