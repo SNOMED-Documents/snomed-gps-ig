@@ -1,6 +1,6 @@
 # Use Cases
 
-The Global Patient Set (GPS) supports the use of SNOMED CT identifiers in situations where clinical information needs to be shared, interpreted, or retained across organisational, national, or licensing boundaries. The following use cases describe what the GPS enables, rather than how it is implemented.
+The GPS supports the use of SNOMED CT identifiers in situations where clinical information needs to be shared, interpreted, or retained across organisational, national, or licensing boundaries. The following use cases describe what the GPS enables, rather than how it is implemented.
 
 Across all use cases, the GPS enables:
 

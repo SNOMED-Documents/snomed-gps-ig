@@ -1,12 +1,12 @@
 # Technical Application
 
-This chapter describes how the Global Patient Set (GPS) may be accessed, deployed, and used in practice, while remaining within its intended scope and respecting SNOMED CT licensing requirements.
+This chapter describes how the GPS may be accessed, deployed, and used in practice, while remaining within its intended scope and respecting SNOMED CT licensing requirements.
 
 The guidance in this chapter focuses on safe, predictable, and license-compliant use of SNOMED CT identifiers and terms.
 
 ## Accessing the Global Patient Set
 
-The Global Patient Set (GPS) is made available by SNOMED International for download under a [Creative Commons -NoDerivatives 4.0 International Public License](https://creativecommons.org/licenses/by-nd/4.0/) (CC BY-ND 4.0).
+The GPS is made available by SNOMED International for download under a [Creative Commons -NoDerivatives 4.0 International Public License](https://creativecommons.org/licenses/by-nd/4.0/) (CC BY-ND 4.0).
 
 Access to the GPS:
 
