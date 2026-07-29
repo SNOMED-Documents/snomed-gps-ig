@@ -93,3 +93,10 @@ Concepts may become inactive between GPS releases. Systems should define local p
 
 GPS identifiers may coexist with local codes or classifications to support continuity of care and local workflows.
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=snomed-gps-ig&entry.670899847=Technical%20Application" class="button primary">Provide Feedback</a>

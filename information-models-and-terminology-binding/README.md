@@ -31,3 +31,10 @@ The GPS is therefore primarily intended to support:
 * Simple data-entry based on small value sets
 
 Where systems require semantic guidance, constrained data entry, or terminology-driven validation, access to the full SNOMED CT release under an appropriate license is required.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=snomed-gps-ig&entry.670899847=Information%20Models%20and%20Terminology%20Binding" class="button primary">Provide Feedback</a>

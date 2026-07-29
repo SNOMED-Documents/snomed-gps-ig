@@ -251,3 +251,10 @@ All such activities require licensed access to the full SNOMED CT release.
 
 Validation using the GPS confirms identifier validity, not clinical or semantic correctness.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=snomed-gps-ig&entry.670899847=Application%20Examples" class="button primary">Provide Feedback</a>

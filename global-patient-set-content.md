@@ -115,3 +115,10 @@ SNOMED International is the authoritative source for:
 * Maintaining alignment with the International Edition of SNOMED CT
 
 Implementers should ensure they use GPS releases obtained directly from SNOMED International to guarantee accuracy and currency.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=snomed-gps-ig&entry.670899847=Global%20Patient%20Set%20Content" class="button primary">Provide Feedback</a>

@@ -31,3 +31,10 @@ This includes, but is not limited to:
 
 All such capabilities require licensed access to the full SNOMED CT release.
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=snomed-gps-ig&entry.670899847=Use%20of%20the%20Global%20Patient%20Set%20in%20a%20FHIR%20Terminology%20Server" class="button primary">Provide Feedback</a>

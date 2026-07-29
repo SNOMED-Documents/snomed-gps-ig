@@ -85,3 +85,10 @@ The GPS enables the receiving organisation to store, display, and interpret the 
 * Emergency care for international patients
 * Humanitarian or disaster response
 * Ongoing care based on records from external health systems
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=snomed-gps-ig&entry.670899847=Use%20Cases" class="button primary">Provide Feedback</a>
