@@ -1,6 +1,29 @@
 ---
 cover: .gitbook/assets/GitBook Banner.png
 coverY: 0
+coverHeight: 137
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+    mask: none
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # SNOMED International Implementation Guide for the Global Patient Set
